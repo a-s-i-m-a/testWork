@@ -1,0 +1,25 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyle = createGlobalStyle`
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: none;
+  }
+
+  button, input {
+    font-size: 14px;
+  }
+`;
